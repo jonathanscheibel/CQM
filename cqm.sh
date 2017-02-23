@@ -13,7 +13,7 @@ source messages/alert
 source messages/error
 source messages/sucess
 
-export VERSION="2017.01.02"
+export VERSION="2017.01.03"
 
 export HTTP_PROTOCOL=https://
 export HTTP_HOME=www.safepentest.com.br
