@@ -1,7 +1,7 @@
 CQM - Framework
 ==============
 
-Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework. 
+Framework para auxilio no desenvolvimento de ferramentas individuais e interligadas, com propósito de usufruir ao máximo os recursos do hardware.
 
 ### Descrição
 
