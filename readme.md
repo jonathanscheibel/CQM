@@ -1,7 +1,6 @@
 CQM - Framework
 ==============
 
-[teste](### Screenshot)
 Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework, Descrição geral do framework. 
 
 ### Descrição
