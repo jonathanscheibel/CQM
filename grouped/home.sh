@@ -1,10 +1,10 @@
 #!/bin/bash
 
-function startingCQN(){
+function startingCQM(){
 	while : ; do
 	    resposta=$(
-	    dialog --stdout --backtitle "Cross Quick Migration - $VERSION "	\
-	            --title " Cross Quick Migration "						\
+	    dialog --stdout --backtitle "CQM - Framework - $VERSION "	\
+	            --title " CQM "						\
 	            --menu 'Escolha uma das opcoes:' 						\
 	            0 0 0                   								\
 	            1 'Configurar' 											\

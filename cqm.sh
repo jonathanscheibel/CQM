@@ -41,7 +41,7 @@ function trySecurity(){
 
 function start(){
 	trySecurity
-	startingCQN	
+	startingCQM	
 }
 
 function install(){	
