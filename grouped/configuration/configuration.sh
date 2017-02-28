@@ -6,8 +6,8 @@ source grouped/configuration/options/open.sh
 function configure(){	
 		while : ; do
 	    resposta=$(
-	    dialog --stdout --backtitle "Cross Quick Migration - $VERSION "	              							\
-	            --title " Cross Quick Migration ($VERSION) "			\
+	    dialog --stdout --backtitle "CQM - $VERSION "	              							\
+	            --title " CQM ($VERSION) "			\
 	            --menu 'Escolha uma das opcoes:' 						\
 	            0 0 0                   								\
 	            1 'Novo' 												\
