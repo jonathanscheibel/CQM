@@ -55,5 +55,9 @@ function install(){
 function reinstall(){
 	install
 }
+
+function newRelease(){
+	gerateNewRelease
+}
 	
 $@
