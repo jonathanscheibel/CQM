@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function atualize(){
-	dialog --backtitle "Cross Quick Migration - $VERSION "	                                         											\
+	dialog --backtitle "CQM - $VERSION "	                                         											\
 		--title 'ATENCAO'                              											\
 		--yesno "\nDeseja realmente atualizar o sistema CQM?\n\nVersao atual: $VERSION\n\nOs arquivos serao substituidos e a operacao nao podera ser desfeita.\n\n"    \
    		0 0
