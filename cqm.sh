@@ -44,7 +44,7 @@ function trySecurity(){
 }
 
 function start(){
-	#trySecurity Descomentar ao subir versão 
+	trySecurity #Descomentar ao subir versão 
 	startingCQM	
 }
 
