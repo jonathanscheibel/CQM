@@ -48,7 +48,6 @@ function start(){
 		trySecurity
 	fi 
 	startingCQM	
-	
 }
 
 function install(){	
