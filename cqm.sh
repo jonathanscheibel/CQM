@@ -44,8 +44,11 @@ function trySecurity(){
 }
 
 function start(){
-	trySecurity #Descomentar ao subir versão 
+	if [ "$(isDebug)" == "false" ]; then	
+		trySecurity
+	fi 
 	startingCQM	
+	
 }
 
 function install(){	

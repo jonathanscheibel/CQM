@@ -14,6 +14,7 @@ function sendMail(){
 
 function compileAllScripts(){
 	print "Compilando todos os scripts..."
+	#Implementar
 }
 	
 function gerateNewRelease(){

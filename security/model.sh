@@ -63,6 +63,10 @@ function verifySystemCompilation(){
 	fi
 }
 
+function isDebug(){	
+	echo $(isDebugClient)
+}
+
 function requerimentInstalation(){
 	HTTP_DIR_CQM_CLIENTE=$HTTP_PROTOCOL$HTTP_HOME/clientes/systems/cqm/
 	serialCliente=$1
