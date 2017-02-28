@@ -2,10 +2,13 @@
 
 source library/tools.sh
 source library/superUser.sh
+
 source sysinstall/install.sh
 source sysinstall/lastFiles.sh
 source sysinstall/atualize.sh
+
 source security/model.sh
+
 source grouped/home.sh
 source grouped/configuration/configuration.sh
 
@@ -13,12 +16,12 @@ source messages/alert
 source messages/error
 source messages/sucess
 
-export VERSION="2017.01.03"
+export VERSION="2017.01.04"
 
 export HTTP_PROTOCOL=https://
-export HTTP_HOME=www.safepentest.com.br
+export HTTP_HOME=www.github.com
 
-HTTP_DIR_CQM=$HTTP_HOME/downloads/systems/cqm/
+HTTP_DIR_CQM=$HTTP_HOME/jonathanscheibel/CQM/releases/download/$VERSION/
 HTTP_FILE_COMPACT=cqm.tar.gz
 HTTP_LICENCE=licence.lic
 
@@ -32,15 +35,16 @@ function secutitySystemModel(){
 	fi			
 }
 
-function trySecurity(){
+function trySecurity(){	
 	verifySystemInstalledModel
 	secutitySystemModel
 	verifySerialPhysicToFileClient
+	verifySystemCompilation 
 	verifyDateExpiration
 }
 
 function start(){
-	trySecurity
+	#trySecurity Descomentar ao subir versão 
 	startingCQM	
 }
 

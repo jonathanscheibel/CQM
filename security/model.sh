@@ -56,6 +56,13 @@ function verifySerialPhysicToFileClient(){
 	fi
 }
 
+function verifySystemCompilation(){
+	line=$(head -n 1 $0)
+	if [ $line == "#!/bin/bash" ]; then
+		exit $ERROR_000005
+	fi
+}
+
 function requerimentInstalation(){
 	HTTP_DIR_CQM_CLIENTE=$HTTP_PROTOCOL$HTTP_HOME/clientes/systems/cqm/
 	serialCliente=$1
